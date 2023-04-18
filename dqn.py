@@ -465,6 +465,9 @@ for episode in range(N_episodes):
 """
 
 # Evaluation
+print("Evaluating the agent on 100 episodes against a random player")
 rewards = eval_against_policy(
-    env, agent, RandomPlayer(), N_episodes=1000, first_player=True
+    env, agent, RandomPlayer(), N_episodes=100, first_player=True
 )
+
+print(f"Win Rate: {(np.mean(rewards) + 1)/2}")
