@@ -1,0 +1,7 @@
+pettingzoo
+numpy
+matplotlib
+ipykernel
+pygame
+tensorflow
+IPython
