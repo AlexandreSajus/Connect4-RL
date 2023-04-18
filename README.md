@@ -38,6 +38,7 @@ Here are some possible improvements:
 - Adding parallel training or other optimizations could help
 - Adding Wandb logging could help to monitor and debug training
 - Adding some form of reward shaping (e.g. giving a reward aligning pieces) could help the agent learn faster
+- Choosing better RL algorithms could help (e.g. PPO or A2C)
 - Choosing a better architecture and hyperparameters could help (a CNN could see winning patterns on the board)
 
 The `dqn.py` file contains:
