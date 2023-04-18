@@ -3,7 +3,7 @@
 This project is about coding reinforcement learning approaches from scratch to solve the game of Connect 4.
 
 <p align="center">
-  <img src="media/connect_4.png" alt="Connect4" width="30%"/>
+  <img src="media/connect_4.png" alt="Connect4" width="40%"/>
 </p>
 
 
@@ -16,7 +16,7 @@ The goal here is not performance, but to understand the fundamentals of reinforc
 Here is DQN (in red) winning against a random agent (in black) by stopping the opponent's vertical tower before building his own.
 
 <p align="center">
-  <img src="media/dqn.gif" alt="DQNvsRandom" width="30%"/>
+  <img src="media/dqn.gif" alt="DQNvsRandom" width="40%"/>
 </p>
 
 Applying DQN on this environment is of course sub-optimal. The game is already solved and tree-search or minmax algorithms are much better suited for this task. However, this project is about understanding the fundamentals of reinforcement learning and how to implement them.
@@ -30,7 +30,7 @@ A few comments on this implementation of DQN:
 Here is the smoothed (10 000 episode average) win rate during training:
 
 <p align="center">
-  <img src="media/winrate.png" alt="WinRate" width="50%"/>
+  <img src="media/winrate.png" alt="WinRate" width="80%"/>
 </p>
 
 Here are some possible improvements:
